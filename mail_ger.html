@@ -18,221 +18,8 @@
 
     p{
       /* line-height: 15px; */
-      font-size: 30px;
+      font-size: 25px;
     }
-
-    a{
-      text-decoration: none
-    }
-
-    .dinoLogo{
-      height: auto;
-      display: block;
-      width: 40%;
-    }
-
-    .famDiv{
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      background-color: #82A6D4;
-      position: relative;
-      object-fit: cover;
-      width: 744px;
-      height: 322px;
-    }
-
-    .family{
-      height:auto;
-      display:block;
-      object-fit: cover;
-      width: 56%;
-    }
-    
-    .newBorn{
-      position: absolute;
-      top: 86%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #E7C84D;
-      width: 100%;
-      height: 15%;
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      font-weight: bolder;
-      display: flex;
-      color: white;
-      font-size: 30px;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .bookMe{
-      border: 2px solid #82A6D4;
-      font-size:30px;
-      background-color: #E7C84D;
-      color: white;
-      font-weight: bold;
-    }
-
-    .bookMe a {
-      text-decoration: none;
-    }
-
-    .icon{
-      font-size:40px; 
-      color:#82A6D4;
-    }
-
-    .faIcon {
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-
-    .fa:hover {
-      opacity: 0.7;
-    }
-
-    .fa-facebook {
-      color: black;
-    }
-
-    .fa-twitter {
-      color: black;
-    }
-
-    .fa-instagram {
-      color: black;
-    }
-
-    .footerdino{
-      height:auto; 
-      display:block; 
-      width:80%; 
-    }
-
-    @media only screen and (max-width: 767px) {
-      p{
-        /* line-height: 15px; */
-        font-size: 22px;
-      }
-      .dinoLogo{
-      height: auto;
-      display: block;
-      width: 40%;
-    }
-
-    .famDiv{
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      background-color: #82A6D4;
-      position: relative;
-      object-fit: cover;
-      width: 590px;
-      height: 161px;
-    }
-
-    .family{
-      height:auto;
-      display:block;
-      object-fit: cover;
-      width: 40%;
-    }
-    
-    .newBorn{
-      position: absolute;
-      top: 98%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #E7C84D;
-      width: 100%;
-      height: 15%;
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      font-weight: bolder;
-      display: flex;
-      color: white;
-      font-size: 15px;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .bookMe{
-      border: 2px solid #82A6D4;
-      background-color: #E7C84D;
-      color: white;
-      font-weight: bold;
-    }
-
-    .footerdino{
-      height:auto; 
-      display:block; 
-      width:60%; 
-    }
-
-  }
-    
-  @media only screen and (max-width: 480px) {
-      p{
-        font-size: 15px;
-      }
-      .dinoLogo{
-      height: auto;
-      display: block;
-      width: 40%;
-    }
-
-    .famDiv{
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      background-color: #82A6D4;
-      position: relative;
-      object-fit: cover;
-      width: 480px;
-      height: 161px;
-    }
-
-    .family{
-      height:auto;
-      display:block;
-      object-fit: cover;
-      width: 50%;
-    }
-    
-    .newBorn{
-      position: absolute;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #E7C84D;
-      width: 100%;
-      height: 15%;
-      background-image: url(https://api.photodino.com/images/static/stars.png);
-      font-weight: bolder;
-      display: flex;
-      color: white;
-      font-size: 15px;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .bookMe{
-      border: 2px solid #82A6D4;
-      background-color: #E7C84D;
-      font-size: 18px;
-      color: white;
-      font-weight: bold;
-    }
-
-    .icon{
-      font-size:22px; 
-      color:#82A6D4;
-    }
-
-    .footerdino{
-      height:auto; 
-      display:block; 
-      width:50%; 
-    }
-
-  }
   </style>
 </head>
 <body style="margin:0;padding:0;">
@@ -240,45 +27,69 @@
     <tr>
       <td align="center" style="padding:0;">
         <table role="presentation" style="width:602px; border-collapse:collapse; border:1px solid #cccccc; border-spacing:0; text-align:left;">
+          <!-- dinologo -->
           <tr>
             <td align="center" style="background:#ffffff;">
-              <img src="https://api.photodino.com/images/static/logo.png" alt="dino-logo" class="dinoLogo"/>
-              <div class="famDiv">
-                <img src="https://api.photodino.com/images/static/family.png" alt="family" class="family"/>
-                <p class="newBorn">BABYBAUCH NEWBORN KINDER FAMILIE</p>
-              </div>
-              <centre>
-                <strong>
-                  <p> Hi <span id="greeting" style="float : inline-start; color: red;">Nirasmia</span>!</p>
-                  <p>Foto Dino kommt in deine Stadt!</p>
-                  <p> Wo: <span id="city" style="float : inline-start; color: red;">Fellbach</span></p>
-                  <p> Wann: <span id="date" style="float : inline-start; color: red;">03.02.2020</span></p>
-                </strong>
-              </centre>
-              <!-- Book Here Button -->
-              <button id="booking_link" class="bookMe">
-                <i class="fa fa-star icon"></i>
-                HIER BUCHEN
-                <i class="fa fa-star icon"></i>
-              </button>
-
-              <centre>
-                <strong>
-                  <p>Fotoshooting ohne Shootinggebuhr</p>
-                  <p>gratis testen!</p>
-                  <p style="color: #82A6D4">www.foto-dino.de</p>
-                </strong>
-                <p>DiesE Email wurde automatisch von FotoDino an dich gesendet. Email abbestellen? Klicke hier: <strong>abmeiden </strong><a href="">(unsubscribe)</a></a></p>
-              </centre>
-              <img src="https://api.photodino.com/images/static/logo.png" alt="dino-footer-logo" class="footerdino"/>
-              <!-- Add font awesome Social Media icons -->
-              <div style="margin-bottom: 30px;">
-                <a href="#" class="fa fa-instagram faIcon"></a>
-                <a href="#" class="fa fa-twitter faIcon"></a>
-                <a href="#" class="fa fa-facebook faIcon"></a>
-              </div>
-              <!--footer-->
-              <footer style="color: #cccccc; margin-bottom: 90px;">
+              <img class="logo" src="https://api.photodino.com/images/static/logo.png" alt="dino-logo" style="height: auto; display: block; width: 45%;"/>
+            </td>
+          </tr>
+          <!-- family -->
+          <tr>
+            <td align="center" style="background-image: url(https://api.photodino.com/images/static/stars.png); background-color: #82A6D4; position: relative; object-fit: cover;">
+              <img src="https://api.photodino.com/images/static/family.png" alt="family" style="height:auto; display:block; object-fit: cover; width: 56%;"/>
+              <p style="position: absolute; top: 92%; left: 50%; transform: translate(-50%, -50%); background-color: #E7C84D; width: 100%; text-align: center; background-image: url(https://api.photodino.com/images/static/stars.png); font-weight: bolder; color: white;">BABYBELLY NEWBORN CHILD FAMILY</p>
+            </td>
+          </tr>
+          <!-- invitations -->
+          <tr>
+            <td align="center">
+              <strong>
+                <p> Hi <span id="greeting" style="float: inline-start;">Nirasmia</span>!</p>
+                <p> Free photoshooting Event Available!</p>
+                <p> Where: <span id="city" style="float: inline-start;">Fellbach</span></p>
+                <p> When: <span id="date" style="float: inline-start;">03.02.2020</span></p>
+              </strong>
+            </td>
+          </tr>
+          <!-- booking -->
+          <tr>
+            <td align="center" style="padding:0;">
+              <a href="#" class="sizing" id="booking_link" style="border: 2px solid #82A6D4; font-size:45px; text-decoration: none; background-color: #E7C84D; color: white; font-weight: bold;">
+                <i class="fa fa-star sizing" style="font-size:40px; color:#82A6D4;"></i>
+                BOOK HERE
+                <i class="fa fa-star sizing" style="font-size:40px; color:#82A6D4;"></i>
+              </a>
+            </td>
+          </tr>
+          <!-- info and subscribe -->
+          <tr>
+            <td align="center" style="padding:0;">
+              <strong>
+                <p>Photoshooting without Shooting Fee
+                <br>try it out !
+                <br>www.foto-dino.de</p>
+              </strong>
+              <p>This is an email message sent automatically by<br>fotodino. Click here to <a href="#" style="text-decoration: none;">unsubscribe</a></a></p>
+            </td>
+          </tr>
+          <!-- footer dinologo -->
+          <tr>
+            <td align="center" style="padding-bottom: 30px;">
+              <img src="https://api.photodino.com/images/static/logo.png" alt="dino-footer-logo" style="height:auto; display:block;" />
+            </td>
+          </tr>
+          <!-- Add font awesome Social Media icons -->
+          <tr>
+            <td align="center" style="padding-bottom: 30px;">
+              <a href="#" class="fa fa-instagram" style="font-size: 30px; width: 50px; text-align: center; text-decoration: none; margin: 5px 2px; opacity: 0.7; color: black;"></a>
+                <a href="#" class="fa fa-twitter" style="font-size: 30px; width: 50px; text-align: center; text-decoration: none; margin: 5px 2px; opacity: 0.7; color: black;"></a>
+                <a href="#" class="fa fa-facebook" style="font-size: 30px; width: 50px; text-align: center; text-decoration: none; margin: 5px 2px; opacity: 0.7; color: black;"></a>
+            </td>
+          </tr>
+          <!-- footer -->
+          <tr>
+            <td align="center" style="color: #cccccc; padding-bottom: 90px;">
+              <footer>
                 &copy; 2021 Fotodino
               </footer>
             </td>
